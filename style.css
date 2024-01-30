@@ -45,6 +45,21 @@ textarea {
   color: white;
 }
 
+.clearBtnContainer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearBtn {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #ff6961;
+  color: white;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;

@@ -8,6 +8,14 @@ $(function () {
     var timeBlock = $(this).closest(".time-block").attr("id");
     localStorage.setItem(timeBlock, description);
   });
+  
+  $(".clearBtn").on("click", function (){
+    let areYouSure = confirm("Are you sure? Clearing the calendar cannot be undone.");
+    if (areYouSure) {
+      localStorage.clear();
+      location.reload();
+    }
+  })
 
 // Each time block's id is the number of the hour it represents (for example, the ID of the 11AM time block is 11 and the 2PM time block ID is 14). The if statement checks to see if the ID number is less than, equal to, or greater than the number of the current hour, and sets the CSS of the time block to either past, present, or future.
   $(".time-block").each(function() {
