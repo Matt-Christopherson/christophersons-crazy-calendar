@@ -1,4 +1,10 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
+
+This work day scheduler is perfect for any worker with a busy schedule. You can add as many important events as you need to each hour block so you can make sure you manage your time effectively.
+
+## Usage
+
+Click on the time block and begin typing your event. To save, click the blue save button to the right of the time block. It's important to save your event so it will show up when you reload your page.
 
 ## License
 
