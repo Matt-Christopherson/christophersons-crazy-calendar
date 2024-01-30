@@ -1,6 +1,6 @@
 # Work Day Scheduler Starter Code
 
-# License
+## License
 
 MIT License
 
