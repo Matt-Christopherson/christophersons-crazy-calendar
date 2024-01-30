@@ -8,7 +8,8 @@ $(function () {
     var timeBlock = $(this).closest(".time-block").attr("id");
     localStorage.setItem(timeBlock, description);
   });
-  
+
+// When the clear button is clicked, the user is presented with an alert to make sure they didn't misclick the button. If they confirm, their local storage is cleared, and the page is reloaded.  
   $(".clearBtn").on("click", function (){
     let areYouSure = confirm("Are you sure? Clearing the calendar cannot be undone.");
     if (areYouSure) {
