@@ -6,6 +6,12 @@ This work day scheduler is perfect for any worker with a busy schedule. You can 
 
 Click on the time block and begin typing your event. To save, click the blue save button to the right of the time block. It's important to save your event so it will show up when you reload your page. To clear the calendar, simply click the "Clear Calendar" button at the bottom of the screen.
 
+![workdaysched](https://github.com/Matt-Christopherson/christophersons-crazy-calendar/assets/153093689/eaf83b05-9b25-49c9-94bf-8008f94bc5d2)
+
+## Link
+
+https://matt-christopherson.github.io/christophersons-crazy-calendar/
+
 ## License
 
 MIT License
